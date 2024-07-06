@@ -1,8 +1,13 @@
+import { HomePage } from "./pages/homePage";
+import { RSVP } from "./pages/rsvp";
+import { About } from "./pages/about";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
- 
+    <main>
+    <HomePage />
+    <RSVP />
+    <About />
     </main>
   );
 }
