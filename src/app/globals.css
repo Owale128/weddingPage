@@ -2,5 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-height: 88vh;
+}
+
+body {
+  background: url('./image/WeddingPic.png') no-repeat ;
+  background-size: 100%;
+  
 }

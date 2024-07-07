@@ -1,6 +1,6 @@
 import style from '../sass/Rsvp.module.scss';
 import React from 'react';
-
+                                                                
 const RsvpPage = () => {
 
     return(
