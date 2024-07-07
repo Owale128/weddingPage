@@ -1,12 +1,15 @@
 .container {
     display: flex;
-    padding: 1.2rem;
+    padding-top: 10rem;
     align-items: center;
     flex-direction: column;
     
     .form {
-      display: inline-block;
+      padding: 2rem;
       text-align: left;
+      border-radius: 1rem;
+      display: inline-block;
+      border: 0.01rem solid black;
     }
   
     .formGroup {
@@ -18,18 +21,20 @@
   
       input {
         padding: 0.5rem; 
-        margin-top: 0.3rem; 
+        margin-top: 0.3rem;
+        width: 15rem; 
       }
     }
   
     button {
-      margin: auto;
+      margin: 1rem auto;
       display: block;
-      padding: 0.6rem 1.25rem; 
-      background-color: #0070f3;
+      font-size: 1.2rem;
       color: white;
       border: none;
       cursor: pointer;
+      padding: 0.6rem 1.25rem; 
+      background-color: #0070f3;
   
       &:hover {
         background-color: #005bb5;

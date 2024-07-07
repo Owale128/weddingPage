@@ -1,6 +1,7 @@
 import style from '../sass/Rsvp.module.scss';
+import React from 'react';
 
-export const RSVP = () => {
+const RsvpPage = () => {
 
     return(
         <div className={style.container}>
@@ -23,3 +24,4 @@ export const RSVP = () => {
         </div>
     )
 }
+export default RsvpPage
