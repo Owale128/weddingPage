@@ -1,21 +1,16 @@
 import style from './sass/Home.module.scss'
-import wedPic from './image/WeddingPic.png'
-import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className={style.container}>
     <header className={style.header}>
-        <h1>Välkommen till vårt bröllop!</h1>
     </header>
     <main className={style.main}>
-        {/* <section className={style.hero}>
-           <Image src={wedPic} alt="Wedding picture" className={style.heroImg} />
-        </section > */}
-        <section className={style.details}>
-        <h2>Datum: 31 dec 2024</h2>
-        <h2>Plats: Stockholm, Sverige</h2>
-        </section>
+        <h1>Welcome to our wedding! &#127802;</h1>
+        <p>
+        We have the great pleasure of inviting you to our wedding. Come share this special day with us as we say "I do" to each other and celebrate our love with family and friends.</p>
+        <h3>Date: 31 dec 2024</h3>
+        <h3>Place: Stockholm, Sweden</h3>
     </main>
 </div>
   );

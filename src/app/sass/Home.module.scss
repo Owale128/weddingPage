@@ -1,26 +1,30 @@
 .container {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    align-items: end;
     padding-top: 10rem;
+    margin-right: 15rem;
+    flex-direction: column;
     
-}
+    main {
+        width: 40rem;
+        margin: 2rem;
+        padding: 3rem;
+        text-align: center;
+        border-radius: 2rem;
+        border: 0.2rem solid black;
+        background-color: rgba(190, 190, 190, 0.715);
+        font-family: cursive;
+        
+        h1 {
+        }
 
-// .header {
+        p {
+            margin: 2rem 0;
+            font-size: 1.5rem;
+        }
 
-
-// }
-
-.hero {
-width: 70%;
-height: 20rem;
-}
-
-.heroImg {
-width: 100%;
-}
-
-.details {
-    margin: 2rem;
-   
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
 }

@@ -8,18 +8,18 @@ const RsvpPage = () => {
             <h1>RSVP</h1>
             <form className={style.form}>
                 <div className={style.formGroup}>
-                    <label htmlFor="name">Namn:</label>
-                    <input type="text" id='name' name='name' />
+                    <label htmlFor="firstName">Firstname:</label>
+                    <input type="text" name='firstName' />
                 </div>
                 <div className={style.formGroup}>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id='email' name='email' />
+                    <label htmlFor="lastname">Lastname:</label>
+                    <input type="text" name='lastName' />
                 </div>
                 <div className={style.formGroup}>
-                    <label htmlFor="guests">Antal gäster:</label>
+                    <label htmlFor="guests">Number of guests:</label>
                     <input type="number" id='guests' name='guests' />
                 </div>
-                <button type='submit'>Skicka</button>
+                <button type='submit'>Submit</button>
             </form>
         </div>
     )
