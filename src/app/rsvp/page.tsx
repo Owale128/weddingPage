@@ -15,9 +15,28 @@ const RsvpPage = () => {
         setFormData({...formData, [name]: value})
     };
 
-    const handleSubmit = (e: FormEvent) => {
+    const handleSubmit = async (e: FormEvent) => {
         e.preventDefault()
 
+        try {
+            const response = await fetch('/api/rsvp', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            });
+
+            if(response.ok) {
+                alert('RSVP recived');
+            } else {
+                const error = await response.json();
+                alert(error.message || 'Failed to send RSVP');
+            }
+        } catch (error) {
+            console.error('Error sending RSVP:', error)
+            alert('Server error')
+        }
         setFormData({
             firstName:'',
             lastName:'',
