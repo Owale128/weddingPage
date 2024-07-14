@@ -3,8 +3,6 @@ import style from './sass/Home.module.scss'
 export default function Home() {
   return (
     <div className={style.container}>
-    <header className={style.header}>
-    </header>
     <main className={style.main}>
         <h1>Welcome to our wedding! &#127802;</h1>
         <p>

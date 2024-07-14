@@ -4,8 +4,8 @@ import React from 'react'
 const AboutPage = () => {
   return (
   <div className={style.container}>
-    <h1>About us</h1>
       <p>
+          <h1>About us</h1>
             We started as two lonely souls, each navigating the world alone,
             But fate brought us together, and our hearts became one.
             Through laughter and tears, we've built our life's tale,

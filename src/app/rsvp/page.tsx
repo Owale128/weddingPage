@@ -1,7 +1,7 @@
 'use client'
-import style from '../sass/Rsvp.module.scss';
 import { Form } from '../model/Form';
 import React, { ChangeEvent, FormEvent, useState } from 'react';
+import { RsvpForm } from '../components/RsvpForm';
                                                                 
 const RsvpPage = () => {
     const [formData, setFormData] = useState<Form>({
@@ -46,37 +46,9 @@ const RsvpPage = () => {
         console.log(formData)
     }
     return(
-        <div className={style.container}>
-            <h1>RSVP</h1>
-            <form className={style.form} onSubmit={handleSubmit}>
-                <div className={style.formGroup}>
-                    <label htmlFor="firstName">Firstname:</label>
-                    <input type="text"
-                     name='firstName'
-                     value={formData.firstName}
-                     onChange={handleChange}
-                     />
-                </div>
-                <div className={style.formGroup}>
-                    <label htmlFor="lastname">Lastname:</label>
-                    <input type="text"
-                     name='lastName'
-                     value={formData.lastName}
-                     onChange={handleChange}
-                     />
-                </div>
-                <div className={style.formGroup}>
-                    <label htmlFor="guests">Number of guests:</label>
-                    <input 
-                    type="number"
-                     name='guests'
-                     value={formData.guests}
-                     onChange={handleChange}
-                      />
-                </div>
-                <button type='submit'>Submit</button>
-            </form>
-        </div>
+        <>
+        <RsvpForm formData={formData} handleChange={handleChange} handleSubmit={handleSubmit} />
+        </>
     )
 }
 export default RsvpPage

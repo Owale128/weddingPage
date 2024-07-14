@@ -1,13 +1,18 @@
+@import 'keyframes.module.scss';
+
 .container {
     display: flex;
     align-items: end;
     flex-direction: column;
-    padding: 8rem 20rem 0 0;
-    
+    padding: 4rem 10rem 0 0;
+    animation: pop-up 0.5s ease-out forwards;
     
     h1 {
+        font-size: 1.7rem;
+        font-weight: bold;
         font-family: cursive;
-        margin: 0 11.5rem 1rem 0; 
+        margin: 0 auto 1rem; 
+        text-decoration: underline;
     }
     
     p {
@@ -16,9 +21,23 @@
         font-size: 1.5rem;
         text-align: center;
         border-radius: 2rem;
-        font-family: cursive;
         border: 0.2rem solid black;
+        font-family: cursive;
         background-color: rgba(190, 190, 190, 0.715);
     }
 }
 
+@media screen and (max-width: 47.94rem) {
+    .container {
+        padding: 4rem 0.7rem 2rem 0;
+        align-items: center;
+        
+        h1 {
+                margin: 0 auto 1rem;
+        }
+        p {
+            padding: 1rem;
+            width: 23rem;
+        }
+    }
+}
