@@ -7,9 +7,9 @@
     margin-right: 15rem;
     flex-direction: column;
     animation: pop-up 0.5s ease-out forwards;
+    font-family: cursive;
     
     h1 {
-      font-family: cursive;
       margin: 0 8.5rem 1rem 0;
       font-size: 1.7rem;
       font-weight: bold;
@@ -22,6 +22,7 @@
       display: inline-block;
       border: 0.2rem solid black;
       background-color: rgba(190, 190, 190, 0.715);
+      
     }
   
     .formGroup {
@@ -31,7 +32,6 @@
         display: block;
         font-size: 1.1rem;
         font-weight: bold;
-        font-family: cursive;
       }
   
       input {
@@ -65,6 +65,16 @@
     .container {
       padding-top: 9rem;
       margin-right: 1.8rem;
+
+      .form {
+
+        .formGroup{
+          label {
+            font-size: 1.5rem;
+          }
+        }
+
+      }
     }
   }
 
