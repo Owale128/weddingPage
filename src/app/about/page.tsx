@@ -4,8 +4,10 @@ import React from 'react'
 const AboutPage = () => {
   return (
   <div className={style.container}>
+    <div className={style.txtContainer}>
+
+    <h1>About us</h1>
       <p>
-          <h1>About us</h1>
             We started as two lonely souls, each navigating the world alone,
             But fate brought us together, and our hearts became one.
             Through laughter and tears, we've built our life's tale,
@@ -16,6 +18,7 @@ const AboutPage = () => {
             Now here we stand, ready to promise each other eternal fidelity and happiness,
             A love story written in the stars, for us two, forever.
       </p>
+    </div>
   </div>
   )
 }

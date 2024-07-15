@@ -1,17 +1,17 @@
-@import 'keyframes.module.scss';
+@import '_keyframes.module.scss';
 
 .container {
     display: flex;
     align-items: end;
-    padding-top: 8rem;
-    margin-right: 2rem;
+    padding-top: 5rem;
+    margin-right: 6rem;
     flex-direction: column;
     animation: pop-up 0.5s ease-out forwards;
     
     main {
-        width: 40rem;
+        width: 33rem;
         margin: 2rem;
-        padding: 3rem;
+        padding: 1rem;
         text-align: center;
         border-radius: 2rem;
         font-family: cursive;
@@ -19,17 +19,18 @@
         background-color: rgba(190, 190, 190, 0.715);
         
         h1 {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             font-weight: bold;
         }
 
         p {
-            margin: 2rem 0;
-            font-size: 1.5rem;
+            margin: 1rem 0;
+            font-size: 1.3rem;
         }
 
         h3 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
         }
     }
 }
@@ -37,7 +38,7 @@
 @media screen and (max-width: 47.94rem) {
 
     .container {
-        padding-top: 6rem;
+        padding-top: 9rem;
         margin-right: 0.6rem;
 
         main {
