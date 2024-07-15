@@ -23,12 +23,11 @@
       border: 0.2rem solid black;
       background-color: rgba(190, 190, 190, 0.715);
       
-    }
+      
+      .formGroup {
+        margin-bottom: 0.6rem; 
   
-    .formGroup {
-      margin-bottom: 0.6rem; 
-  
-      label {
+        label {
         display: block;
         font-size: 1.1rem;
         font-weight: bold;
@@ -40,8 +39,8 @@
         font-size: 1.2rem;
         margin-top: 0.3rem;
       }
+      
     }
-  
     button {
       border: none;
       color: white;
@@ -59,8 +58,8 @@
       }
     }
   }
+  }
   
-
   @media screen and (max-width: 47.9375rem) {
     .container {
       padding-top: 9rem;
@@ -73,7 +72,10 @@
             font-size: 1.5rem;
           }
         }
-
+        
+        button {
+          font-size: 1.8rem;
+        }
       }
     }
   }
