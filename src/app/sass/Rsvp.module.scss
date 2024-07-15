@@ -7,7 +7,6 @@
     margin-right: 15rem;
     flex-direction: column;
     animation: pop-up 0.5s ease-out forwards;
-    font-family: cursive;
     
     h1 {
       margin: 0 8.5rem 1rem 0;
@@ -31,6 +30,7 @@
         display: block;
         font-size: 1.1rem;
         font-weight: bold;
+        font-family: cursive;
       }
   
       input {
@@ -52,6 +52,7 @@
       border-radius: 0.5rem;
       padding: 0.4rem 1rem; 
       background-color: #0070f3;
+      font-family: cursive;
   
       &:hover {
         background-color: #005bb5;
