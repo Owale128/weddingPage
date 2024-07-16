@@ -64,7 +64,8 @@
   @media screen and (max-width: 47.9375rem) {
     .container {
       padding-top: 8rem;
-      margin-right: 1.9rem;
+      margin: 0 auto;
+      align-items: center;
 
       .form {
 
@@ -78,12 +79,5 @@
           font-size: 1.8rem;
         }
       }
-    }
-  }
-
-  @media screen and (min-width: 47.9375rem) and (max-width: 47.9999rem) { 
-    .container {
-      margin-right: 13rem;
-      padding-top: 10rem;
     }
   }
