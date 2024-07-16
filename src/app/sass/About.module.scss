@@ -32,11 +32,11 @@
 
 @media screen and (max-width: 47.94rem) {
     .container {
-        padding: 4rem 0.6rem 2rem 0;
-        align-items: center;
+        padding: 4rem 0.7rem 2rem 0;
+        // align-items: center;
         
         .txtContainer{
-            width: 23rem;
+            max-width: 95%;
 
             h1 {
                 font-size: 2rem;
