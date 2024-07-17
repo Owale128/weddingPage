@@ -6,4 +6,4 @@ Link to the app: https://wedding-page-three.vercel.app/
 ![OurWeddingPic](https://github.com/user-attachments/assets/dc76b2c5-85c7-4ad6-9a2e-ad056b882f6f)
 
 # Stack: 
-[![My Skills](https://skillicons.dev/icons?i=nextjs,react,sass,supabase)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,sass,postgres,supabase)](https://skillicons.dev)
